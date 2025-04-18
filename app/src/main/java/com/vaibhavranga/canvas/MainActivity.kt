@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CanvasTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    InstagramLogo(
+                    WaterBottleRoot(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -100,8 +100,6 @@ fun FacebookLogo(modifier: Modifier = Modifier) {
         )
     }
 }
-
-
 
 @Preview(showSystemUi = true)
 @Composable
